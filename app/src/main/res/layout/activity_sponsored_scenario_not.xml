@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".activitiesScenario.MyScenarioNotActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@color/black">
+
+
+        <ImageButton
+            android:id="@+id/sponscenarionot_delete_btn"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_alignParentEnd="true"
+            android:background="@color/alpha"
+            android:src="@drawable/ic_close_white2" />
+
+    </RelativeLayout>
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="후원한 시나리오가 없으시군요!\n후원하러 가시겠습니까?"
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            android:gravity="center"/>
+        <Button
+            android:id="@+id/gospon"
+            android:layout_marginTop="60dp"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="후원하러 가기"
+            android:textColor="@color/white"
+            android:background="@color/black"
+            android:textSize="16dp"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

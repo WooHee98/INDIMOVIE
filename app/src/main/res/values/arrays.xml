@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="phone">
+        <item>010</item>
+        <item>011</item>
+        <item>016</item>
+        <item>017</item>
+        <item>018</item>
+        <item>019</item>
+    </string-array>
+
+    <string-array name="email">
+        <item>naver.com</item>
+        <item>daum.net</item>
+        <item>gmail.com</item>
+    </string-array>
+
+    <string-array name="jang">
+        <item>드라마</item>
+        <item>가족</item>
+        <item>애니</item>
+        <item>로맨스</item>
+        <item>미스터리</item>
+        <item>다큐</item>
+        <item>스릴러</item>
+        <item>코미디</item>
+    </string-array>
+
+    <string-array name="bank">
+        <item>국민은행</item>
+        <item>신한은행</item>
+        <item>하나은행</item>
+        <item>우리은행</item>
+        <item>IBK기업은행</item>
+        <item>새마을금고</item>
+        <item>농협은행</item>
+    </string-array>
+
+</resources>

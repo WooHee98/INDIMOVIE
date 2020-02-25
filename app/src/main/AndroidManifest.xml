@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mainindimovie_ex03">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".activitiesScenario.ScenarioAddressActivity"></activity>
+        <activity android:name=".activitiesRecommendation.Recommendation_seen" />
+        <activity android:name=".activitiesRecommendation.Recommendation_like" />
+        <activity android:name=".activitiesScenario.ScenarioSearch_Activity" />
+        <activity android:name=".activitiesRecommendation.RecommendationListA" />
+        <activity android:name=".activitiesRecommendation.Recommendation_jang" />
+        <activity android:name=".activitys.MyMovieReviewUpActivity" />
+        <activity android:name=".activitys.ScenarioNewsDActivity" />
+        <activity android:name=".activitys.ReservationDeListActivity" />
+        <activity android:name=".activitys.PasswordChangeActivity" />
+        <activity android:name=".activitys.UserInfoUpdateActivity" />
+        <activity android:name=".activitys.MovieReserPayActivity" />
+        <activity android:name=".activitys.PassSearchDetailActivity" />
+        <activity android:name=".activitys.IdSearchDetailActivity" />
+        <activity android:name=".activitiesScenario.SponsoredScenarioNotActivity" />
+        <activity android:name=".activitiesScenario.GoSiteActivity" />
+        <activity android:name=".activitiesScenario.MyScenarioNotActivity" />
+        <activity android:name=".activitys.IDPWSearchActivity" />
+        <activity android:name=".activitiesScenario.MyFDPayInfo2Activity" />
+        <activity android:name=".activitiesScenario.MyFDPayInfoActivity" />
+        <activity
+            android:name=".activitiesScenario.ScenarioFinishActivity"
+            android:theme="@style/AppTheme.Transfer" />
+        <activity android:name=".activitys.MyMovieReviewActivity" />
+        <activity android:name=".activitys.MovieDetail_Release_Activity" />
+        <activity android:name=".activitys.MovieDetail_Past_Activity" />
+        <activity android:name=".activitiesRecommendation.RecommendationMovieActivity" />
+        <activity android:name=".activitys.MovieReviewWriteActivity" />
+        <activity android:name=".activitys.MovieDetail_Present_Activity" />
+        <activity android:name=".activitiesScenario.ScenarioDetail_Go_M_PayActivity" />
+        <activity android:name=".activitiesScenario.ScenarioDetail_Go_MoneyActivity" />
+        <activity android:name=".activitiesScenario.ScenarioDetail_GoSponActivity" />
+        <activity android:name=".activitiesScenario.MyScenarioBankEnrolActivity" />
+        <activity android:name=".activitiesScenario.ScenarioDetailActivity" />
+        <activity android:name=".activitiesScenario.SponsoredScenarioActivity" />
+        <activity android:name=".activitys.AdminQuestionDetailActivity" />
+        <activity android:name=".activitys.NoticeDetailActivity" />
+        <activity android:name=".activitys.AdminQuestionWriteActivity" />
+        <activity android:name=".activitys.AdminQuestionActivity" />
+        <activity android:name=".activitys.FrequentlyQuestionActivity" />
+        <activity android:name=".activitys.ServicecenterActivity" />
+        <activity android:name=".activitiesScenario.ScenarioActivity" />
+        <activity android:name=".activitys.MovieReserTheaterSelectedActivity" />
+        <activity android:name=".activitiesScenario.MyScenarioStartWriteActivity" />
+        <activity android:name=".activitiesScenario.MyScenarioYetStartActivity" />
+        <activity
+            android:name=".activitys.SeatPersonSelected"
+            android:theme="@style/AppTheme.Transfer" />
+        <activity android:name=".activitys.SeatSelectedActivity" />
+        <activity android:name=".activitys.TheaterInfoActivity" />
+        <activity android:name=".activitys.FrequentlyQuestionDetailActivity" />
+        <activity android:name=".activitys.NoticeActivity" />
+        <activity android:name=".activitys.MovieReserSelectedActivity" />
+        <activity android:name=".activitys.MovieActivity" />
+        <activity android:name=".activitys.JoinActivity" />
+        <activity android:name=".activitys.LoginActivity" />
+        <activity android:name=".activitys.MovieSeenActivity" />
+        <activity android:name=".activitys.MyPageActivity" />
+        <activity android:name=".activitys.SettingActivity" />
+        <activity android:name=".activitys.TheaterListActivity" />
+        <activity android:name=".activitys.WishListActivity" />
+        <activity android:name=".activitys.ReservationListActivity" />
+        <activity
+            android:name=".activitys.MovieReserDatePickerActivity"
+            android:theme="@style/AppTheme.Transfer" />
+        <activity android:name=".activitys.MovieReserActivity" />
+        <activity android:name=".Main2Activity" />
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

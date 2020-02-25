@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/nav_content_btn1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:background="@color/white"
+        android:backgroundTint="@color/grey_100"
+        android:text="영화예매 바로가기"
+        android:textColor="@color/black"
+        android:textSize="13sp" />
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:layout_marginBottom="14dp"
+        android:background="@color/white"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp">
+
+        <TableRow android:gravity="center">
+
+            <Button
+                android:id="@+id/nav_content_multi_btn1"
+                android:layout_height="70dp"
+                android:layout_marginRight="7dp"
+                android:backgroundTint="@color/grey_100"
+                android:text="영화"
+                android:textColor="@color/black"
+                android:textSize="13sp" />
+
+            <Button
+                android:id="@+id/nav_content_multi_btn2"
+                android:layout_height="70dp"
+                android:layout_marginRight="7dp"
+                android:backgroundTint="@color/grey_100"
+                android:text="영화관"
+                android:textColor="@color/black"
+                android:textSize="13sp" />
+
+            <Button
+                android:id="@+id/nav_content_multi_btn3"
+                android:layout_height="70dp"
+                android:backgroundTint="@color/grey_100"
+                android:text="마이인디"
+                android:textColor="@color/black"
+                android:textSize="13sp" />
+
+        </TableRow>
+
+
+        <TableRow android:gravity="center">
+
+            <Button
+                android:id="@+id/nav_content_multi_btn12"
+                android:layout_height="70dp"
+                android:layout_marginRight="7dp"
+                android:backgroundTint="@color/grey_100"
+                android:text="영화 추천"
+                android:textColor="@color/black"
+                android:textSize="13sp" />
+
+            <Button
+                android:id="@+id/nav_content_multi_btn5"
+                android:layout_height="70dp"
+                android:layout_marginRight="7dp"
+                android:backgroundTint="@color/grey_100"
+                android:text="시나리오\n후원"
+                android:textColor="@color/black"
+                android:textSize="13sp" />
+
+            <Button
+                android:id="@+id/nav_content_multi_btn6"
+                android:layout_height="70dp"
+                android:backgroundTint="@color/grey_100"
+                android:text="자주묻는\n질문"
+                android:textColor="@color/black"
+                android:textSize="13sp" />
+
+        </TableRow>
+
+    </TableLayout>
+
+    <Button
+        android:id="@+id/nav_content_btn2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:layout_marginBottom="5dp"
+        android:background="@color/white"
+        android:backgroundTint="@color/grey_100"
+        android:text="공지사항"
+        android:textColor="@color/black"
+        android:textSize="13sp" />
+
+</LinearLayout>

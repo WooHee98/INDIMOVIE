@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">INDIMOVIE</string>
+    <string name="drawer_open">drawer_open</string>
+    <string name="drawer_close">drawer_close</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="senario_content">1. 시나리오 작성자 소개
+                            \n작성자가 누구인지 진솔하고 구체적으로
+                            \n소개해 주세요.\n
+                            \n실제로 어떤 사람등이 프로젝트에 참여하고
+                            \n있는지 알 수 있게 작성하는 것이 중요합니다.
+                            \n
+                            \n2. 시나리오 프로젝트 개요
+                            \n프로젝트를 통해 창작하시는 영화의 시나리오
+                            \n핵심을 간략하게 설명해주세요.
+                            \n무엇을, 왜 , 어떻께 만드는지 등을 작성해주세요.
+                            \n
+                            \n3. 목표 금액 펀딩의 목적
+                            \n후원 펀딩은 목표 금액 이상을 달성하면 그 금액을
+                            \n전달받아 후원자와 약속한 창작 영화를 만들게 됩니다.
+                            \n목표 금액으로 설정하신 금액이 왜 필요한지,
+                            \n모금액을 어떤 활동에 사용하실 것인지 구체적
+                            \n으로 알려주세요.
+                            \n
+                            \n4. 실행 일정
+                            \n펀딩이 성공할 경우 어떤 일정으로
+                            \n프로젝트 완수하게 될 지 계획을 기재해 주세요.</string>
+    <string name="scenario_pay"> - 결제실행일에 결제자 귀책사유(한도초과, 이용정지 등)로
+                        \n    인하여 결제가 실패할 수 있으니, 결제수단이 유효한지 한번
+                        \n    확인하세요.
+                        \n - 1차 결제 실패 시 실패일로부터 3 영업일 동안 재결제를 실행
+                        \n    합니다.
+                        \n - 결제 예약 이휴, 결제할 카드를 변경하시려면 마이페이지 -> \n    나의 후원 결제 정보에서 카드 정보를 변경해 주세요.</string>
+</resources>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!--Custom Toolbar-->
+    <include layout="@layout/toolbar" />
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/refresh"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+                <com.synnapps.carouselview.CarouselView
+                    android:id="@+id/main_banner_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="260dp"
+                    android:background="@color/grey_200"
+                    app:animateOnBoundary="true"
+                    app:autoPlay="true"
+                    app:fillColor="@color/grey_200"
+                    app:indicatorGravity="top"
+                    app:pageColor="@color/grey_200"
+                    app:pageTransformInterval="1500"
+                    app:slideInterval="3000"
+                    app:strokeColor="@color/grey_200"
+                    app:strokeWidth="1dp" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:id="@+id/main_home_movie_view"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="13dp"
+                        android:layout_marginTop="13dp"
+                        android:layout_marginRight="13dp"
+                        android:layout_marginBottom="16dp"
+                        android:background="@drawable/main_back"
+                        android:orientation="vertical">
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/main_home_show_view"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="13dp"
+                        android:layout_marginTop="13dp"
+                        android:layout_marginRight="13dp"
+                        android:layout_marginBottom="16dp"
+                        android:background="@drawable/main_back"
+                        android:orientation="vertical">
+
+                    </LinearLayout>
+
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <LinearLayout
+                            android:id="@+id/main_home_scenario_view"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="13dp"
+                            android:layout_marginTop="13dp"
+                            android:layout_marginRight="13dp"
+                            android:layout_marginBottom="16dp"
+                            android:background="@drawable/main_back"
+                            android:orientation="vertical"></LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/main_home_notice_view"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/main_home_scenario_view"
+                            android:layout_marginLeft="13dp"
+                            android:layout_marginTop="13dp"
+                            android:layout_marginRight="13dp"
+                            android:layout_marginBottom="16dp"
+                            android:background="@drawable/main_back"
+                            android:orientation="vertical"></LinearLayout>
+                    </RelativeLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginBottom="40dp"
+                        android:background="@color/background"
+                        android:gravity="center"
+                        android:text="INDIMOVIE"
+                        android:textColor="@color/grey_400"
+                        android:textSize="30dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+
+</LinearLayout>
